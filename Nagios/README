@@ -1,0 +1,3 @@
+use env.sh to modify parameters
+you must modify the adminuser parameter to match the user on your server that have sudo admin right
+then you can use sudo ./createuser.sh && sudo ./install-nagios.sh && sudo ./install-nagios-plugins.sh && sudo ./install-ndoutils.sh && sudo ./install-livestatus.sh 
